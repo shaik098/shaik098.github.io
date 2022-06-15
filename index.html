@@ -1,10 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="portfolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="shaik haseeb">
+    <title>Shaik Haseeb</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+.head{
+  background-color: rgb(8, 224, 77) ;
+  
+}  
+  body{
+  background-color: rgb(179, 218, 186);
+  margin: 0;
+  font-family: "Trirong", serif;
+}
 
-    </head>
-    <body>
-    <h1>this is haseeb web page</h1>
+.intro{
+  text-align: center;
+}
+#button{
+    position:absolute;
+  right: 20px;
+  top: 30px;
+  width: 100px;
+  height: 30px;
+  background-color:  rgb(179, 218, 186);
+  }
+</style>
+<body>
+  <div class="head">
+    <header>
+        <img src="/img/logo.png" alt="">
+        <button id="button" >CONTACT</button>
+    </header>
+  </div>
+    <h1 class="intro">I'm shaik Haseeb</h1>
+   <h4 class="intro">a Web Developer.</h4>
+   <hr>
+   <h2>About me.</h2>
+   <ul>
+    <li>
+      Currently persuing B.tech final year in computer science. Also attending full stack development bootcamp at Hashinsert.
+    </li>
+   </ul>
 
+  <h2>Education.</h2>
+  <ul>
+    <li>(B.Tech in Computer Science)Lords institute of Engineering and Technology, Hyderabad. (2018- 2022)</li>
+  </ul>
+  
+  <h2>Skills.</h2>
+  <ul>
+
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>PYTHON</li>
+  </ul>
+
+  <h2>Work Experience.</h2>
+  <ul>
+    <li>None.</li>
+  </ul>
+  <div class="text-center bg-green-100 "><div class="namenmail">
+    
+      <h2 class="text-center text-2xl pt-10">Let's Get In Touch</h2><br>
+      <p class=" text-m ">I am available to work on your projects and bring your ideas to life. I am just a click away.</p><br>
+      <form  action="index.html" method="post"></form>
+      <input class="rounded-md p-1 border-2 border-black" type="text" name="name" placeholder="Name">
+      <input class="rounded-md p-1  border-2 border-black" type="email" name="mail" placeholder="Email"><br><br>
+      <textarea  class="rounded-md p-1  border-2 border-black" name="name" rows="8" cols="50" placeholder="Message"></textarea><br><br>
+      <input class="bg-green-400 w-1/4 text-opacity-40 text-center rounded-lg h-7 hover:bg-black hover:text-white" type="submit" name="sunmit" value="submit">
+     </form>
+  </div>
+  <footer class="text-center "><br>
+    <p>© 2022 shaik. All rights reserved.</p>
+  </footer>
 </body>
 </html>
