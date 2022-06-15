@@ -1,0 +1,62 @@
+.head{
+    background-color: rgb(87, 199, 122) ;
+    
+  }  
+    body{
+    background-color: rgb(179, 218, 186);
+    margin: 0;
+    font-family: "Trirong", serif;
+  }
+  
+  .intro{
+    text-align: center;
+  }
+  #button{
+    position:absolute;
+    right: 20px;
+    top: 30px;
+    width: 100px;
+    height: 50px;
+    background-color:  rgb(14, 244, 56);
+    border-radius: 10px;
+    border-color: black;
+    
+    
+    }
+
+.intro2{
+    
+    border-radius: 15px;
+    background-color: rgb(174, 236, 188);
+    display: flex;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    justify-content: space-around;
+  
+  }
+  .about {
+    width: 300px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+
+
+  }
+  .Skills{
+    width: 1500px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+
+    position: relative;
+  }
+  .edu{
+    width: 1500px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+  }
